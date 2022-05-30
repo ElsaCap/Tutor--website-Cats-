@@ -1,0 +1,89 @@
+.startpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .startpage header, .startpage footer {
+    flex: 0 0 100%;
+  }
+  
+  .startpage section {
+    flex: 0 0 22%;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .menu a:focus
+  .menu a:hover {
+    text-decoration: underline;
+    color: #0edbff;
+  }
+    body {
+      background: rgb(92, 151, 105) url(https://static.vecteezy.com/system/resources/thumbnails/003/423/841/small/cute-cat-cartoon-doodle-seamless-pattern-background-wallpaper-vector.jpg) repeat fixed center;
+      font-size: 100%; 
+      margin: auto;  
+      max-width: 860px;  
+    }
+    section, header, footer {
+      outline: 1px solid rgb(255, 255, 255);
+    } /*Stora headern */
+   
+    header {
+      text-align: center;
+    }
+   
+    .startpage h1 {
+      font-size: 500%; 
+    }
+    
+    .tagline {
+      font-size: 240%;
+      padding: 0.5em;
+      border-top: 3px double #ffffff;
+      border-bottom: 3px double #ffffff;
+      margin: 1em 0; 
+      
+    }
+   
+     .menu h2 {
+      margin: 0 0 1em;
+      padding: 2em 0;
+      background-color: rgb(250, 150, 180);  
+      text-align: center;
+      box-shadow: inset 0 0 20px #d478d4;
+      border-radius: 50%
+    }
+   
+   
+    .startpage {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+   
+    .startpage header, .startpage footer {
+      flex: 0 0 100%;
+    }
+   
+    .startpage section {
+      flex: 0 0 22%;
+    }
+    .menu a {
+      text-decoration: none;
+      color:rgb(255, 255, 255);
+    }
+   
+    .menu a:focus
+    .menu a:hover {
+      text-decoration: underline;
+      color: #ffffff;
+    }
+    mark {
+      background-color: #989998;
+      color: #ffffff;
+      width: 1px;
+      }

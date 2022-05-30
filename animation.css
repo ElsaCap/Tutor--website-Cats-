@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    }
+    .outer{
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    .inner{
+        margin: 50px auto;
+        width: 750px;
+        height: 750px;
+        background-image: url(https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg)
+        ; /* Took my image online and clicked on "kopiera bildadress" and then I pasted it here */
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        box-shadow: 0px 0px 20px 4px rgba(28, 114, 25, 0.6);  /* Gröna outlinen*/
+    }
+    .inner h1{
+        width: 98%;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(241, 245, 243);
+
+        /* I did not want my border but here's the code if I would need it: border: 2px solid rgb(225, 235, 231); */
+        top: 45%;
+        position: absolute;}
